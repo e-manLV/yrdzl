@@ -1,0 +1,20 @@
+/*
+ * Custom Customizer CSS
+ *
+ * Remove SSettings that don't work with this header layout
+ */
+
+/* -- Settings that are always hidden -- */
+li#customize-control-overlay-header-align,
+li#customize-control-overlay-add-header-bgimg,
+li#customize-control-overlay-header-add-topcart,
+li#customize-control-overlay-header-remove-number,
+li#customize-control-overlay-header-remove-address,
+li#customize-control-overlay-nav-bg-color,
+li#customize-control-overlay-nav-font-color,
+li#customize-control-overlay-remove-main-nav,
+li#customize-control-overlay-align-nav-center,
+li#customize-control-overlay-align-nav-full-width,
+li#customize-control-overlay-align-navdrop-center {
+    display: none !important;
+}
