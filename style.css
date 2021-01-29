@@ -1,0 +1,155 @@
+/*
+Theme Name:        Overlay Child Grid
+Theme URI:         https://kairaweb.com/child-theme/overlay-child-grid/
+Description:       Overlay Child Grid is a child theme for the popular Overlay WordPress theme. Using Overlay Child Grid, along with Overlay's powerful customization settings and the new simple header layout & post grid layouts, you're able to easily create a beautiful and professional looking photography or portfolio type website. This Overlay Child Grid works well with any of your favorite page builders like Elementor, Visual Composer, Beaver Builder, SiteOrigin or Divi Builder... It's a multipurpose theme, so get creative. Overlay Child Grid and WooCommerce are a perfect match, with deeper WooCommerce integration you're able to easily build a professional online store and sell your eCommerce products. Focused on speed and usability and coded with only the best SEO practices and WP coding standards, Overlay is the perfect theme for your next web project.
+Author:            Kaira
+Author URI:        https://kairaweb.com/
+Template:          overlay
+Version:           1.0.4
+Requires at least: 4.7
+Tested up to:      5.4.1
+Requires PHP:      7.0
+License:           GNU General Public License v2 or later
+License URI:       http://www.gnu.org/licenses/gpl-2.0.html
+Tags:              blog, e-commerce, portfolio, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+Text Domain:       overlay-child-grid
+*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---- Default Fonts ---- */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.site-title,
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+.main-navigation.main-nav-full-width ul#overlay-main-menu li {
+	text-align: center;
+}
+
+.overlay-list article .entry-title {
+    font-size: 24px;
+    margin: 0 0 5px;
+    font-weight: 300;
+}
+
+a {
+    color: #af6702;
+}
+/* ---- Primary Color ---- */
+.main-navigation.overlay-nav-plain ul > li > a:hover,
+.main-navigation.overlay-nav-plain ul > li > a:focus,
+.main-navigation.overlay-nav-plain ul > li.current-menu-item > a,
+.main-navigation.overlay-nav-plain ul > li.current-menu-ancestor > a,
+.main-navigation.overlay-nav-plain ul > li.current-menu-parent > a,
+.main-navigation.overlay-nav-plain ul > li.current_page_parent > a,
+.main-navigation.overlay-nav-plain ul > li.current_page_ancestor > a,
+.main-navigation.overlay-nav-plain .current_page_item > a,
+.main-navigation.overlay-nav-underline ul > li > a:hover,
+.main-navigation.overlay-nav-underline ul > li > a:focus,
+.main-navigation.overlay-nav-underline ul > li.current-menu-item > a,
+.main-navigation.overlay-nav-underline ul > li.current-menu-ancestor > a,
+.main-navigation.overlay-nav-underline ul > li.current-menu-parent > a,
+.main-navigation.overlay-nav-underline ul > li.current_page_parent > a,
+.main-navigation.overlay-nav-underline ul > li.current_page_ancestor > a,
+.main-navigation.overlay-nav-underline .current_page_item > a,
+.overlay-numeric-navigation.circle li.prev a,
+.overlay-numeric-navigation.circle li.next a,
+.overlay-numeric-navigation.squaretxt li.prev a,
+.overlay-numeric-navigation.squaretxt li.next a,
+.overlay-footer-social-two #overlay-bottombar-menu li a:hover,
+.overlay-footer-social-two.footer-menu-vertical #overlay-bottombar-menu li a:hover {
+	color: #af6702;
+}
+/* .main-navigation ul ul a:hover { For Mobile Menu hover color
+	color: #af6702 !important;
+} */
+
+.main-navigation.overlay-nav-underline ul > li > a:hover,
+.main-navigation.overlay-nav-underline ul > li > a:focus,
+.main-navigation.overlay-nav-underline ul > li.current-menu-item > a,
+.main-navigation.overlay-nav-underline ul > li.current-menu-ancestor > a,
+.main-navigation.overlay-nav-underline ul > li.current-menu-parent > a,
+.main-navigation.overlay-nav-underline ul > li.current_page_parent > a,
+.main-navigation.overlay-nav-underline ul > li.current_page_ancestor > a,
+.main-navigation.overlay-nav-underline .current_page_item > a {
+	box-shadow: 0 -4px 0 #af6702 inset;
+}
+
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a:focus,
+.main-navigation ul ul li.current-menu-item > a,
+.main-navigation ul ul li.current_page_item > a,
+.main-navigation ul ul li.current-menu-parent > a,
+.main-navigation ul ul li.current_page_parent > a,
+.main-navigation ul ul li.current-menu-ancestor > a,
+.main-navigation ul ul li.current_page_ancestor > a,
+
+.main-navigation.overlay-nav-solid a:hover,
+.main-navigation.overlay-nav-solid ul > li > a:hover,
+.main-navigation.overlay-nav-solid ul > li > a:focus,
+.main-navigation.overlay-nav-solid ul > li.current-menu-item > a,
+.main-navigation.overlay-nav-solid ul > li.current-menu-ancestor > a,
+.main-navigation.overlay-nav-solid ul > li.current-menu-parent > a,
+.main-navigation.overlay-nav-solid ul > li.current_page_parent > a,
+.main-navigation.overlay-nav-solid ul > li.current_page_ancestor > a,
+.main-navigation.overlay-nav-solid .current_page_item > a,
+
+.main-navigation.overlay-nav-block ul > li > a:hover span.nav-span-block,
+.main-navigation.overlay-nav-block ul > li > a:focus span.nav-span-block,
+.main-navigation.overlay-nav-block ul > li.current-menu-item > a span.nav-span-block,
+.main-navigation.overlay-nav-block ul > li.current-menu-ancestor > a span.nav-span-block,
+.main-navigation.overlay-nav-block ul > li.current-menu-parent > a span.nav-span-block,
+.main-navigation.overlay-nav-block ul > li.current_page_parent > a span.nav-span-block,
+.main-navigation.overlay-nav-block ul > li.current_page_ancestor > a span.nav-span-block,
+.main-navigation.overlay-nav-block .current_page_item > a span.nav-span-block,
+
+.overlay-widget-shortline .widget-title::after,
+.overlay-widget-sideline .widget-title::after,
+.overlay-side-social .social-icon,
+.error-btn a:hover,
+.overlay-slider-container .overlay-btn,
+.overlay-numeric-navigation.square li a,
+.overlay-numeric-navigation.square li a:hover,
+.overlay-numeric-navigation.square li.active a,
+.overlay-numeric-navigation.square li.disabled,
+.overlay-numeric-navigation.circle li a,
+.overlay-numeric-navigation.circle li a:hover,
+.overlay-numeric-navigation.circle li.active a,
+.overlay-numeric-navigation.circle li.disabled,
+.overlay-numeric-navigation.squaretxt li a,
+.overlay-numeric-navigation.squaretxt li a:hover,
+.overlay-numeric-navigation.squaretxt li.active a,
+.overlay-numeric-navigation.squaretxt li.disabled,
+#comments .comment-form input.submit:hover,
+.overlay-footdivide-shortline .footer-custom-block::after,
+.overlay-footdivide-shortline ul.site-footer-widgets > li::after,
+.overlay-readmore-btn:hover {
+	background-color: #af6702;
+}
+
+a:hover, a:focus, a:active {
+	color: #663c01;
+}
+.overlay-slider-container .overlay-btn:hover,
+.overlay-numeric-navigation.square li a:hover,
+.overlay-numeric-navigation.square li.active a,
+.overlay-numeric-navigation.circle li a:hover,
+.overlay-numeric-navigation.circle li.active a,
+.overlay-numeric-navigation.squaretxt li a:hover,
+.overlay-numeric-navigation.squaretxt li.active a {
+	background-color: #663c01;
+}
+.overlay-numeric-navigation.circle li.prev a:hover,
+.overlay-numeric-navigation.circle li.next a:hover,
+.overlay-numeric-navigation.squaretxt li.prev a:hover,
+.overlay-numeric-navigation.squaretxt li.next a:hover,
+.overlay-numeric-navigation.numbers li.prev a:hover,
+.overlay-numeric-navigation.numbers li.next a:hover,
+.overlay-numeric-navigation.numbers li.active a {
+	color: #663c01;
+}
