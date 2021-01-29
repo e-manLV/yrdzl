@@ -1,0 +1,31 @@
+/*
+ * Responsive Mobile CSS
+ */
+.site-bar-inner {
+    text-align: center;
+}
+.site-header-inner,
+.main-navigation {
+    flex-direction: column;
+    text-align: center;
+}
+.overlay-header-container {
+    padding: 0;
+}
+.site-header-inner .site-branding {
+    order: 1;
+}
+.site-header-inner .main-navigation {
+    order: 3;
+    width: 100%;
+}
+.site-header-inner .overlay-header-socialsearch {
+    order: 2;
+    text-align: center;
+}
+.main-navigation .site-container {
+    display: block;
+}
+.menu-toggle {
+    width: 100%;
+}
