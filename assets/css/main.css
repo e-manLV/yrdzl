@@ -1517,6 +1517,12 @@
 			font-weight: 700;
 			font-size: 30px;
 		}
+		#main .inner .latest h1 {
+			padding: 1em 3em;
+			text-align: center;
+			font-weight: 700;
+			font-size: 30px;
+		}
 
 /* Footer */
 
