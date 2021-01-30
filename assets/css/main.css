@@ -978,6 +978,16 @@
 			margin: 0;
 		}
 
+		/* #preview .seller-image {
+			border-radius: 50%;
+			border: 3px solid white;
+			transition: all .5s;
+		} */
+/* 
+		#preview .seller-image:hover {
+			transform: scale(1.2) rotate(365deg);
+		  } */
+
 		#preview.vertical .inner {
 			display: -ms-flexbox;
 			display: -moz-flex;
@@ -1035,7 +1045,7 @@
 
 			#preview .content header h2 {
 				font-size: 2.5em;
-				color: #e74c3c;
+				color: black;
 			}
 
 		@media screen and (max-width: 1680px) {
