@@ -1505,6 +1505,12 @@
 		#main .inner {
 			max-width: 100%;
 		}
+		#main .inner .favorites h1 {
+			padding: 1em 3em;
+			text-align: center;
+			font-weight: 700;
+			font-size: 30px;
+		}
 
 /* Footer */
 
