@@ -1218,32 +1218,91 @@
 		list-style-type: none;
 		margin: 0 auto;
 		padding: 0;
-	  }
-	  .nav .name {
-		display: none;
-		color: black;
-	  }
-	  .nav li {
-		padding: 5px 10px 10px 10px;
-	  }
-	  .nav a {
-		transition: all .5s;
-	  }
-	  .nav a:hover {
-		color: #526F35	;
+		max-width: 1200px;
 	  }
 
-  .nav {
-    max-width: 1200px;
-  }
+	  /* .nav .name {
+		display: none;
+		color: black;
+	  } */
 
   .nav .name {
     display: block;
     margin-right: auto;
+  } 
+  
+  ul {
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 15px 4px 17px 0;
+	/* list-style: none; */
+	/* -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); */
   }
-
-  .spacer
-{
+  
+  ul li {
+	font: bold 18px/20px sans-serif;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding: 15px 20px;
+	/* background: #fff; */
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+  }
+  
+  ul li:hover {
+	background: rgb(255, 255, 255);
+	color: rgb(3, 3, 3);
+  }
+  
+  ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 150px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+  }
+  
+  ul>li:last-child ul {
+	right: 4px;
+	left: auto;
+  }
+  
+  ul li ul li {
+	background: rgb(255, 255, 255);
+	display: block;
+	color: #61B329;
+  }
+  
+  ul li ul li:hover {
+	background: rgb(255, 255, 255);
+  }
+  
+  ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  .spacer {
     width: 100%;
     height: 100px;
 }
@@ -1472,7 +1531,7 @@
 			display: inline-block;
 			text-decoration: none;
 			border-radius: 50% 50% 0 0;
-			background: #e74c3c;
+			background: #61B329;
 			width: 3em;
 			height: 3em;
 			margin-bottom: -1.75em;
@@ -1503,7 +1562,7 @@
 			-ms-flex-pack: center;
 			position: relative;
 			z-index: 10003;
-			background: #e74c3c;
+			background: #61B329;
 			padding: 2em;
 			height: 20em;
 		}
