@@ -1218,7 +1218,7 @@
 	}
 
 	.nav {
-		display: flex;
+		display: flexbox;
 		justify-content: space-around;
 		font-weight: 700;
 		list-style-type: none;
@@ -1227,14 +1227,10 @@
 		max-width: 1200px;
 	  }
 
-	  /* .nav .name {
-		display: none;
-		color: black;
-	  } */
-
-  .nav .name {
-    display: block;
-    margin-right: auto;
+  .nav .logo {
+	margin-right: auto;
+	padding-right: 50%;
+	background: none;
   }
 
   ul {
