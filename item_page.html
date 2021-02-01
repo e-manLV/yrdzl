@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<!--
+	Radius by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Yardz - Item page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+
+		* {
+		  box-sizing: border-box;
+		}
+
+
+
+		body {
+		  margin: 0;
+		  font-family: Arial;
+		}
+
+		.row {
+		  display: flex;
+		}
+
+		/* Create three equal columns that sits next to each other */
+		.column {
+		  flex: 25%;
+		  padding: 5px;
+		}
+
+
+		/* The grid: Four equal columns that floats next to each other */
+	/*	.column {
+		  float: left;
+		  width: 25%;
+		  padding: 10px;
+		}*/
+
+		/* Style the images inside the grid */
+		.column img {
+		  opacity: 0.8;
+		  cursor: pointer;
+		}
+
+		.column img:hover {
+		  opacity: 1;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		/* The expanding image container */
+		.container {
+		  position: relative;
+		  display: none;
+		}
+
+		/* Expanding image text */
+		#imgtext {
+		  position: absolute;
+		  bottom: 15px;
+		  left: 15px;
+		  color: white;
+		  font-size: 20px;
+		}
+
+		/* Closable button inside the expanded image */
+		.closebtn {
+		  position: absolute;
+		  top: 10px;
+		  right: 15px;
+		  color: white;
+		  font-size: 35px;
+		  cursor: pointer;
+		}
+
+		</style>
+	</head>
+	<body>
+
+		<!--Main Menu-->
+			<div class="main-nav">
+				<ul class="nav">
+					  <li class="name">yrdzl logo</li>
+					  <li>
+						  <a href="#">Buy</a>
+						  <ul>
+							<li><a href="index.html">Yardz</a></li>
+							<li><a href="latest_page.html">Latest</a></li>
+							<li><a href="search_page.html">Search</a></li>
+							<li><a href="favorites_page.html">Fav</a></li>
+						  </ul>
+						</li>
+					  <li><a href="#">Sell</a></li>
+					  <li><a href="#">Messages</a></li>
+				</ul>
+			</div>
+
+			<div class="spacer">
+				&nbsp;
+			</div>
+
+
+		<!-- Header -->
+			<header id="header" class="preview">
+				<div class="inner">
+					<div class="content">
+						<h1>Radius</h1>
+						<h2>A fully responsive masonry style portfolio template.</h2>
+					</div>
+					<a href="index.html" class="button hidden"><span>Let's Go</span></a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="preview" class="vertical_item">
+				<div class="inner">
+	<div>
+		<img src="images/yardzl_users1.jpg" alt="" style="width:150px;height:150px;"/>
+		<header>
+			<h2 style="text-align:center">Smokey</h2>
+		</header>
+		<p style="text-align:center">Joined 2021</p>
+	</div>
+
+				<!-- The grid: four columns -->
+				<div class="column">
+          <div class="row">
+	          <header>
+		          <h2 style="text-align:center">Funko Pop! Flash SDCC exclusive</h2>
+	          </header>
+				</div>
+				<div class="row">
+				  <div class="column">
+				    <img src="images/flash1.jpg" alt="" onclick="myFunction(this);" style="width:100px;height:150px;"/>
+				  </div>
+				  <div class="column">
+				    <img src="images/flash2.jpg" alt="" onclick="myFunction(this);" style="width:100px;height:150px;"/>
+				  </div>
+				  <div class="column">
+				    <img src="images/flash3.jpg" alt="" onclick="myFunction(this);" style="width:100px;height:150px;"/>
+				  </div>
+				  <div class="column">
+				    <img src="images/flash4.jpg" alt="" onclick="myFunction(this);" style="width:100px;height:150px;"/>
+				  </div>
+				</div>
+
+				<!-- The expanding image container -->
+				<div class="row">
+				  <div class="container">
+				  <!-- Close the image -->
+				    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+				  <!-- Expanded image -->
+				      <img id="expandedImg" style="width:450px;height:600px;"/>
+				  <!-- Image text -->
+				       <div id="imgtext"></div>
+				   </div>
+        </div>
+        </div>
+
+					<div>
+						<header>
+							<h2>Interested in this item? Let's chat!</h2>
+						</header>
+						<img src="images/fakechat.jpg" alt="" style="width:450px;height:600px;"/>
+					</div>
+				</div>
+				<a href="detail1.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>
+				<a href="detail2.html" class="nav next"><span class="fa fa-chevron-right"></span></a>
+			</div>
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
+				<div class="inner">
+					<div class="content">
+						<h3>Vestibulum hendrerit tortor id gravida</h3>
+						<p>In tempor porttitor nisl non elementum. Nulla ipsum ipsum, feugiat vitae vehicula vitae, imperdiet sed risus. Fusce sed dictum neque, id auctor felis. Praesent luctus sagittis viverra. Nulla erat nibh, fermentum quis enim ac, ultrices euismod augue. Proin ligula nibh, pretium at enim eget, tempor feugiat nulla.</p>
+					</div>
+					<div class="copyright">
+						<h3>Follow me</h3>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						</ul>
+						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/imageExpand.js"></script>
+
+	</body>
+</html>
