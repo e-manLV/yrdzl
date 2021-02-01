@@ -1050,9 +1050,50 @@
 				right: -.4em;
 			} */
 
-		#preview .search {
-			padding: 2em 2em;
-		}
+			#preview .search-container {
+				float: right;
+				display: flex;
+			  }
+			  
+			  #preview input[type=text] {
+				padding: 6px;
+				margin-top: 8px;
+				font-size: 17px;
+				border: none;
+			  }
+			  
+			  #preview .search-container button {
+				float: right;
+				padding: 6px 10px;
+				margin-top: 8px;
+				margin-right: 16px;
+				background: #ddd;
+				font-size: 17px;
+				border: none;
+				cursor: pointer;
+				vertical-align: top;
+			  }
+			  
+			  #preview .search-container button:hover {
+				background: #ccc;
+			  }
+			  
+			  @media screen and (max-width: 600px) {
+				#preview .search-container {
+				  float: none;
+				}
+				#preview a, .topnav input[type=text], #preview .search-container button {
+				  float: none;
+				  display: block;
+				  text-align: left;
+				  width: 100%;
+				  margin: 0;
+				  padding: 14px;
+				}
+				#preview input[type=text] {
+				  border: 1px solid #ccc;  
+				}
+			}
 
 		@media screen and (max-width: 1680px) {
 
