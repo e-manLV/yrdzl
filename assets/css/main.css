@@ -1519,6 +1519,13 @@
 			font-weight: 700;
 			font-size: 30px;
 		}
+	
+		.yardz img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+		}
 
 /* Footer */
 
