@@ -1210,7 +1210,7 @@
 		width: 100%;
 		background: #61B329;
 		min-height: 30px;
-		padding: 20px;
+		/* padding: 20px; */
 		position: fixed;
 		text-align: center;
 		z-index: 1000;
@@ -1238,10 +1238,6 @@
 	display: inline;
 	margin: 0;
 	padding: 15px 4px 17px 0;
-	/* list-style: none; */
-	/* -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); */
   }
 
   ul li {
