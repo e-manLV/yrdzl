@@ -1210,6 +1210,7 @@
 		width: 100%;
 		background: #61B329;
 		min-height: 30px;
+
 		position: fixed;
 		text-align: center;
 		z-index: 1000;
@@ -1234,6 +1235,7 @@
 	text-align: left;
 	display: inline;
 	margin: 0;
+	padding: 15px 4px 17px 0;
   }
 
   ul li {
