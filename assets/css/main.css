@@ -1269,7 +1269,7 @@
 	.main-nav {
 		width: 100%;
 		background: #61B329;
-		min-height: 30px;
+		max-height: 110px;
 
 		position: fixed;
 		text-align: center;
@@ -1360,7 +1360,7 @@
 
   .spacer {
     width: 100%;
-    height: 110px;
+    height: 135px;
 }
 
 /* Header */
