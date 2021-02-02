@@ -1314,7 +1314,7 @@
   }
 
   ul li:hover {
-	background: rgb(255, 255, 255);
+	background: #526F35;
 	color: rgb(3, 3, 3);
   }
 
@@ -1343,13 +1343,13 @@
   }
 
   ul li ul li {
-	background: rgb(255, 255, 255);
+	background: #526F35;
 	display: block;
 	color: #61B329;
   }
 
   ul li ul li:hover {
-	background: rgb(255, 255, 255);
+	background: #526F35;
   }
 
   ul li:hover ul {
