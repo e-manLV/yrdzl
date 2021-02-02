@@ -16,7 +16,7 @@
 		<!--Main Menu-->
 			<div class="main-nav">
 				<ul class="nav">
-					<li class="logo"><img src="images/yardz_logo_b.png" alt="logo"></li>
+					<li class="logo" ><a href="index.html"><img src="images/yardz_logo_b.png" alt="logo"></a></li>
 				<li>
 					<a href="#">Buy</a>
 					<ul>
@@ -54,10 +54,18 @@
 						<h3>Spongebob SquarePants</h3>
 					</div>
 
-					<div class="search">
-						<input type="text" placeholder="Search..">
+					<div class="search-container">
+						<form class="searchbar" action="/action_page.php">
+							<input type="text" placeholder="Search.." name="search">
+							<button type="submit"><i class="fa fa-search"></i></button>
+						</form>
 					</div>
+					
 				</div>
+			</div>
+
+			<div class="spacer">
+				&nbsp;
 			</div>
 			
 			<div id="main">
