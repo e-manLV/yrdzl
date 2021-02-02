@@ -1188,7 +1188,8 @@
 		#search .search-container {
 			display: flex;
 			margin: auto;
-  			width: 50%;
+			width: 50%;
+			justify-content: center;
 		  }
 		  
 		  #search input[type=text] {
