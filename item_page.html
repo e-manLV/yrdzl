@@ -139,6 +139,19 @@
 		          <h2 style="text-align:center">Funko Pop! Flash SDCC exclusive</h2>
 	          </header>
 				</div>
+				<!-- The expanding image container -->
+				<div class="row">
+					<img id="expandedImg" src="images/pic01.jpg" style="width:100%">
+					<div class="container">
+					<!-- Close the image -->
+						<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+					<!-- Expanded image -->
+							<img id="expandedImg" style="width:450px;height:600px;"/>
+					<!-- Image text -->
+							 <div id="imgtext"></div>
+					 </div>
+				</div>
+
 				<div class="row">
 				  <div class="column">
 				    <img src="images/pic01.jpg" alt="" onclick="myFunction(this);" style="width:100px;height:150px;"/>
@@ -153,18 +166,6 @@
 				    <img src="images/flash4.jpg" alt="" onclick="myFunction(this);" style="width:100px;height:150px;"/>
 				  </div>
 				</div>
-
-				<!-- The expanding image container -->
-				<div class="row">
-				  <div class="container">
-				  <!-- Close the image -->
-				    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-				  <!-- Expanded image -->
-				      <img id="expandedImg" style="width:450px;height:600px;"/>
-				  <!-- Image text -->
-				       <div id="imgtext"></div>
-				   </div>
-        </div>
         </div>
 
 					<div>
