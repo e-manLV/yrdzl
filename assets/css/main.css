@@ -1025,9 +1025,9 @@
 
 			#preview .search-results {
 				margin: auto;
-				width: 50%;	
+				width: 50%;
 				padding-top: 5%;
-				
+
 			}
 			#preview .search-results h1 {
 				text-align: center;
@@ -1042,7 +1042,7 @@
 				justify-content: center;
 				padding-top: 30px;
 			  }
-			  
+
 			  #preview input[type=text] {
 				padding: 6px;
 				margin-top: 8px;
@@ -1050,7 +1050,7 @@
 				border: none;
 				width: 250px;
 			  }
-			  
+
 			  #preview .search-container button {
 				float: right;
 				padding: 0 15px;
@@ -1060,7 +1060,7 @@
 				border: none;
 				cursor: pointer;
 			  }
-			  
+
 			  #preview .search-container button:hover {
 				background: #ccc;
 			  }
@@ -1069,7 +1069,7 @@
 				width: 100%;
 				height: 90px;
 			}
-			  
+
 			  @media screen and (max-width: 600px) {
 				#preview .search-container {
 				  float: none;
@@ -1083,7 +1083,7 @@
 				  padding: 14px;
 				}
 				#preview input[type=text] {
-				  border: 1px solid #ccc;  
+				  border: 1px solid #ccc;
 				}
 			}
 
@@ -1146,7 +1146,7 @@
 
 		#search .search-results {
 			margin: auto;
-			width: 50%;	
+			width: 50%;
 			padding-top: 5%;
 		}
 
@@ -1162,7 +1162,7 @@
 			width: 50%;
 			justify-content: center;
 		  }
-		  
+
 		  #search input[type=text] {
 			padding: 6px;
 			margin-top: 8px;
@@ -1170,7 +1170,7 @@
 			border: none;
 			width: 250px;
 		  }
-		  
+
 		  #search .search-container button {
 			float: right;
 			padding: 0 15px;
@@ -1180,7 +1180,7 @@
 			border: none;
 			cursor: pointer;
 		  }
-		  
+
 		  #search .search-container button:hover {
 			background: #ccc;
 		  }
@@ -1189,7 +1189,7 @@
 			width: 100%;
 			height: 90px;
 		}
-		  
+
 		  @media screen and (max-width: 600px) {
 			#search .search-container {
 			  float: none;
@@ -1203,7 +1203,7 @@
 			  padding: 14px;
 			}
 			#search input[type=text] {
-			  border: 1px solid #ccc;  
+			  border: 1px solid #ccc;
 			}
 		}
 
@@ -1236,6 +1236,22 @@
 				font-size: 2em;
 			}
 
+	}
+
+/* Item pages */
+	#Item h2 {
+		font: 20px/22px "Work Sans";
+		font-size: 30px;
+	}
+
+	#Item h3 {
+		font: 20px/22px "Work Sans";
+		font-size: 25px;
+	}
+
+	#Item p {
+		font: 20px/22px "Work Sans";
+		font-size: 15px;
 	}
 
 /* Section/Article */
@@ -1476,7 +1492,7 @@
 		.nav .logo {
 			padding-right: 120px;
 		}
-	
+
 	}
 
 @media only screen and (min-width: 840px) {
@@ -1486,7 +1502,7 @@
 		.nav .logo {
 			padding-right: 300px;
 		}
-	
+
 	}
 	@media only screen and (min-width: 1100px) {
 		.main-nav {
@@ -1495,9 +1511,9 @@
 		.nav .logo {
 			padding-right: 50%;
 		}
-	
+
 	}
-	
+
 /* Header */
 
 	#header {
@@ -1708,7 +1724,7 @@
 			font-weight: 700;
 			font-size: 30px;
 		}
-	
+
 		.yardz img {
 			display: block;
 			margin-left: auto;
