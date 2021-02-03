@@ -75,6 +75,16 @@
 		  cursor: pointer;
 		}
 
+		/* Shipping Button */
+		.row .shipping {
+			text-align: left;
+			width: 50%;
+			padding-left: 15%;
+		}
+		.row .shipping label {
+			font-size: 16px;
+		}
+
 		</style>
 	</head>
 	<body>
@@ -123,8 +133,19 @@
 			      <header>
 			         <h2>Ruby R.</h2>
 			      </header>
-			      <p>Joined 2021</p>
+				  <p>Joined 2021</p>
+
+				  	<div class="spacer">
+					&nbsp;
+					</div>
+
+				  <form class="shipping">
+					<label for="fname">Shipping Address:</label>
+					<input type="text" id="fname" name="fname" placeholder="Shipping Address..."><br>
+					<button type="submit" form="nameform" value="Submit">Request Shipping Label</button>
+				  </form>
 			   </div>
+			   
 			   <!-- The expanding image container -->
 			   <div class="column">
 			      <header>
