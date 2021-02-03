@@ -1383,6 +1383,16 @@
 	/* padding-right: 50%; */
 	background: none;
   }
+  .nav .user img{
+	  width: 75px;
+  }
+  .nav .user{
+	  margin: 0;
+	  padding:0;
+  }
+  .nav .user:hover {
+	  background: none;
+  }
 
   ul {
 	text-align: left;
