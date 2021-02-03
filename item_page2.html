@@ -65,14 +65,21 @@
 		  cursor: pointer;
 		}
 
-		/* Shipping Button */
+		/* Shipping Section */
 		.row .shipping {
 			text-align: left;
 			width: 50%;
 			margin: auto;
 		}
-		.row .shipping label {
-			font-size: 16px;
+
+		.row .shipping #shipping {
+			display: inline-block;
+			height: 200px;
+			}
+
+		.row .shipping #ship-button {
+			/* min-width: 135.333px; */
+			width: 100%;
 		}
 
 
@@ -124,14 +131,13 @@
 			      </header>
 				  <p>Joined 2021</p>
 
-				  <div class="spacer">
+				  <!-- <div class="spacer">
 					&nbsp;
-				</div>
+				</div> -->
 
 				  <form class="shipping">
-					<!-- <label for="fname">Shipping Address:</label> -->
-					<input type="text" id="fname" name="fname" placeholder="Shipping Address..."><br>
-					<button type="submit" form="nameform" value="Submit">Request Shipping Label</button>
+					<textarea id="shipping" name="shipping" placeholder="Shipping Address..." ></textarea><br><br>
+					<button id="ship-button" type="submit" value="Submit">Request Shipping Label</button>
 				  </form>
 			   </div>
 			   
