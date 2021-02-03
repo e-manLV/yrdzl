@@ -1254,6 +1254,16 @@
 		font-size: 15px;
 	}
 
+	/* Style the images inside the grid */
+	#imgColumn {
+		opacity: 0.8;
+		cursor: pointer;
+	}
+
+	.column #imgColumn:hover {
+		opacity: 1;
+	}
+
 /* Section/Article */
 
 	section.special, article.special {
