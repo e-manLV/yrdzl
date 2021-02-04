@@ -1254,6 +1254,10 @@
 		font-size: 15px;
 	}
 
+	#itemColor {
+		color: black;
+	}
+
 	/* Style the images inside the grid */
 	#imgColumn {
 		opacity: 0.8;
