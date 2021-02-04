@@ -1,0 +1,43 @@
+Yardz
+
+THE SITUATION
+Everyone has things.  Some more than others.  Some no longer want their things.  What do YOU do as a Zapponian when you want to sell or giveaway your things to other Zapponians?  What if someone at Zappos has some thing they want to get rid of that you would consider treasure?
+
+
+THE CHALLENGE
+Our current internal tools to buy, sell, or giveaway personal things to fellow Zapponians are not made for that purpose.  E-mail, Slack, word of mouth:  These are all inefficient and clunky to use as a marketplace platform.  They are for created for working, not for buying and selling.  Worse yet, some resort to third-party sites like Facebook to be involved in groups that may not reach everyone at Zappos or could very well be used by non-Zapponians.  A huge factor in these personal transactions is TRUST.  This is why Zappos needs an internal marketplace for personal things.  Especially in this Working From Home and remote office world we find ourselves in, making it easier and (most importantly) FUN to connect with each other supports the culture we came to Zappos for.
+
+
+THE FOCUS
+Those who no longer want their things need to get it in front of those that might be looking for exactly that item.  There are also those who are actively looking for a good deal on things they need that another may no longer want.  Almost always, they don’t know that they can solve each other’s problem.  Connecting them is the main focus.
+
+
+THE PROPOSAL
+Introducing Yardz!  Yardz is a personal marketplace, from Zapponian to Zapponian.  Consider it your digital yard where your yard sale is always available for everyone at Zappos to check out.  In addition, looking for what Zappos employees have for sale or are giving away has never been easier!  Simply cruise the neighborhood for a yard and explore.  Searching, a favorites collection, communicating directly on an item’s offer page, private messaging, requesting shipping labels, and more!
+
+
+THE DETAILS
+For the seller:
+- Upload pictures and item details to create an item page for buyers to search out
+- Your own personal “yard” to create a collection of your items for sale or to be given away
+- A chat / forum directly on the item page to easily communicate with interested individuals
+- Reach more people by having your items searchable and browsable instead of relying on easily overlooked e-mails or Slack messages.
+- Accommodations for shipping items to remote workers or for those who just want to socially distance
+
+For the buyer:
+- Browse Yardz by exploring the neighborhood and a seller’s yard of things for sale
+- Keep a collection of favorite items to save and come back to later
+- Search a seller’s yard or the entire neighborhood for the item you’re looking for using keywords
+- Browse by a picture feed of the latest items being offered by the neighborhood
+- Request a shipping label directly from the item page
+- Ask questions or publicly claim an item with the item page chat / forum feature
+
+
+
+THE FUTURE
+- A robust seller page that easily keeps track of items for sale
+- Shipping label request integration with HQSR and immediate access to label invoicing / payment
+- Direct messages to other user’s for private messaging without cluttering primarily work-related communication systems/tools
+- User profile pages to let others know your interests, what your currently looking for, profile picture management, favorite items and sellers, etc
+- Paying with Zollars
+- Gamification incentive towards customizing on-screen house / yard or character / avatar
